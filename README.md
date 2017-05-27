@@ -17,4 +17,4 @@ __#id__ = selects an __id__ called ‘id’
 
 *parent child*  = selects an *element* called ‘child’ inside an *element* called ‘parent’
 
-*parent__.child__* = selects a *__class__* called ‘child’ inside an *element* called ‘parent’
+*parent.child* = selects a *__class__* called ‘child’ inside an *element* called ‘parent’
