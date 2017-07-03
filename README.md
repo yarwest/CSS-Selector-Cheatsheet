@@ -4,7 +4,7 @@ Just something small and useful that I made to aid in the CSS maze of confusedne
 
 Unless differently specified, classes, ids and elements are interchangeable.
 
-```&ast;``` selects all elements
+```*``` selects all elements
 
 ```element``` selects the DOM element called ‘element’
 
@@ -21,7 +21,7 @@ Let's start simple.
 
 ```parent child``` selects all elements called ‘child’ inside an element called ‘parent’
 
-```parent &ast;``` selects all elements inside an element called 'parent'
+```parent *``` selects all elements inside an element called 'parent'
 
 ```parent.child``` selects a class called ‘child’ inside an element called ‘parent’
 
@@ -34,7 +34,7 @@ Attributes are pieces of data that can be added to any DOM element, there are no
 
 ```element[title="book"]``` selects all elements called 'element' containing an attribute called 'title' that has 'book' as its value
 
-```a[href&ast;="wiki"]``` selects all link elements containing an href that has 'wiki' somewhere in that href
+```a[href*="wiki"]``` selects all link elements containing an href that has 'wiki' somewhere in that href
 
 ```a[href^="https"]``` selects all link elements containing an href that starts with 'https'
 
